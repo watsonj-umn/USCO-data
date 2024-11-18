@@ -15,4 +15,7 @@ python3 combine_registrations.py
 echo -e "\nRunning link_registrations.py..."
 python3 link_registrations.py
 
+echo -e "\nRunning consruct_and_join.py..."
+python3 construct_and_join.py
+
 echo -e "\nAll scripts completed successfully!"
