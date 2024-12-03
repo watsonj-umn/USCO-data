@@ -12,6 +12,19 @@ Otherwise, run link.sh:
 $ ./link.sh
 ```
 
+
+## Codebook
+| Variable Name | Description                                                             |
+|--------------|-------------------------------------------------------------------------|
+| LPERMCO      | CRSP PERMCO Identifier                                                  |
+| fyear        | Calendar Year                                                           |
+| gvkey        | Compustat GVKEY Identifier                                             |
+| LPERMNO      | CRSP PERMNO Identifier                                                 |
+| reg_count    | Count of US Copyright registrations linked to LPERMCO in fyear         |
+| plt_count    | Count of litigation linked to LPERMCO as plaintiff, filed in fyear     |
+| def_count    | Count of suits linked to and filed against LPERMCO (as defendant) in fyear |
+
+
 ## Configuration
  * To re-run linking code, download input files into raw-data/ 
    * cv88on.txt: Federal Judicial Center Data
